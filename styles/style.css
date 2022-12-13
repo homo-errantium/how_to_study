@@ -80,3 +80,57 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+/* Block description */
+.description {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f2f2f2;
+}
+
+.two-columns__brief {
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.two-columns__title {
+  margin: 0;
+  width: 175px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 784px;
+  width: 80%;
+}
+
+.two-columns__paragraph {
+  margin: 0;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+}
+
+.span-accent {
+  font-weight: 600;
+}
+
+.two-columns__paragraph_upper {
+  margin-bottom: 30px;
+}
+
+.two-columns__paragraph_middle {
+  margin-bottom: 30px;
+}
