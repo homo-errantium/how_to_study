@@ -12,6 +12,7 @@
 .header {
   margin: 0;
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: space-evenly;
   padding-left: 64px;
@@ -109,7 +110,7 @@
 .two-columns__main-text {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  row-gap: 30px;
   min-width: 784px;
   width: 80%;
 }
@@ -123,14 +124,6 @@
 
 .span-accent {
   font-weight: 600;
-}
-
-.two-columns__paragraph_upper {
-  margin-bottom: 30px;
-}
-
-.two-columns__paragraph_middle {
-  margin-bottom: 30px;
 }
 
 /* block digits */
@@ -248,6 +241,9 @@
   z-index: 1;
 }
 
+.table__cell_theme_dark {
+  width: 200px;
+}
 .kaufman__triangle {
   position: absolute;
   width: 877px;
