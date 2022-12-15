@@ -6,20 +6,71 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 64px;
+  background-color: #f2f2f2;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
 }
 
+.logo {
+  width: 228px;
+  height: 32px;
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.header__title {
+  font-size: 102px;
+  font-weight: 600;
+  line-height: 96px;
+  width: 730px;
+}
+
+.header__subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  width: 338px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.main-illustration {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
-  height: 568px;
+  position: absolute;
+  right: 0;
+  top: 64px;
   width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -28,4 +79,252 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+/* Block description */
+.description {
+  display: flex;
+  padding-top: 100px;
+}
+
+.two-columns__brief {
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.two-columns__title {
+  margin: 0;
+  width: 175px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 784px;
+  width: 80%;
+}
+
+.two-columns__paragraph {
+  margin: 0;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.span-accent {
+  font-weight: 600;
+}
+
+.two-columns__paragraph_upper {
+  margin-bottom: 30px;
+}
+
+.two-columns__paragraph_middle {
+  margin-bottom: 30px;
+}
+
+/* block digits */
+.digits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-title {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0 0 20px 0;
+}
+
+.section-subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  margin: 0;
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1110px;
+}
+
+.table__cell {
+  margin-top: 60px;
+  width: 250px;
+}
+
+.table__heading {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.table__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 20px 0 0 0;
+}
+
+/* block Feynman */
+.feynman {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  background-color: #f2f2f2;
+  background-image: url(../images/feynman.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 867px 637px;
+  height: 890px;
+}
+
+.feynman__title {
+  text-align: center;
+  width: 648px;
+  font-size: 120px;
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 100px 0 70px 0;
+}
+
+.feynman__subtitle {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 51px;
+  margin: 0;
+}
+
+.feynman__link {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 51px;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+/* block Kaufman */
+.kaufman {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #1f1f1f;
+  padding: 90px 0;
+  overflow: hidden;
+}
+
+.section-title_theme_dark {
+  color: white;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  margin-top: 80px;
+}
+
+.table_theme_dark {
+  z-index: 1;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  top: 0;
+  right: -210px;
+}
+
+/* block footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  background: #1f1f1f;
+  min-height: 350px;
+  padding: 60px 0 40px 0;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.logo_place_footer {
+  width: 228px;
+  height: 32px;
+}
+
+.footer__author {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 18px 0 18px 0;
+}
+
+.footer__column-heading {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  color: white;
+  margin: 0 0 20px 0;
+}
+
+.footer__column-link {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer__column_content_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
