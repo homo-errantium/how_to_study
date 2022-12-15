@@ -74,14 +74,6 @@
   background-color: #2f80ed;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
 /* Block description */
 .description {
   display: flex;
@@ -241,15 +233,20 @@
   z-index: 1;
 }
 
-.table__cell_theme_dark {
-  width: 200px;
-}
 .kaufman__triangle {
   position: absolute;
   width: 877px;
   height: 877px;
   top: 0;
   right: -210px;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
 }
 
 /* block footer */
