@@ -244,11 +244,6 @@
   color: white;
 }
 
-.table__cell_theme_dark {
-  width: 200px;
-  margin-top: 80px;
-}
-
 .table_theme_dark {
   z-index: 1;
 }
