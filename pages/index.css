@@ -1,3 +1,13 @@
+@keyframes rotate-to-square {
+  from {
+    rotate: 0;
+  }
+  to {
+    rotate: -360deg;
+  }
+}
+
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -20,6 +30,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  overflow: hidden;
   /* выше установили ограничения для секции */
 }
 
@@ -79,9 +90,11 @@
   width: 568px;
   height: 568px;
   background-color: #2f80ed;
+  animation: rotate-to-square  20s linear infinite  reverse;
+  
 }
 
-/* Block description */
+/* block description */
 .description {
   display: flex;
   padding-top: 100px;
