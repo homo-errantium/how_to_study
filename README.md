@@ -2,8 +2,6 @@
 
 ## This project is a **"How to Learn"** website.
 
-##
-
 This is my first project and I tried to make it interesting. It focuses on learning and memorization techniques. By visiting this site you will learn what techniques exist, how easy it is to memorize and assimilate new information. On my site you can find interesting facts, short articles, links to literature, as well as entertaining videos.
 
 ##
