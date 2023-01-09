@@ -446,7 +446,6 @@ a:hover {
 
 .resources__logo-zone {
   display: flex;
-
   margin: 0 auto 217px;
   width: 1100px;
 }
@@ -454,10 +453,12 @@ a:hover {
 .resources__link {
   width: 270px;
   height: 38px;
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .resources__logo {
+  flex-basis: auto;
   object-fit: contain;
 }
 
