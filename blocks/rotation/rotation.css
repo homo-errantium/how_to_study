@@ -6,3 +6,7 @@
     rotate: -360deg;
   }
 }
+
+.rotation{
+  animation: rotate-to-square 20s linear infinite reverse;
+}
