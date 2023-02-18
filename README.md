@@ -7,6 +7,12 @@ This is my first project and I tried to make it interesting. It focuses on learn
 ##
 
 To view the site, you just need to download it in an archived form or through a link using GIT commands.
+Also, to view the site, you just need to download it in archived form or through the link.
+
+* [link to viewe  on Github](https://github.com/homo-errantium/how_to_study)
+
+* [link to viewe  on Github Pages](https://homo-errantium.github.io/how_to_study/)
+
 
 ##
 
