@@ -2,7 +2,7 @@
 
 ## This project is a **"How to Learn"** website.
 
-<img src="./images/how_to_study.png" alt="website screenshort"  width="600" height="170" />
+<img src="./images/how_to_study.png" alt="website screenshort"  width="600" height="300" />
 
 This is my first project and I tried to make it interesting. It focuses on learning and memorization techniques. By visiting this site you will learn what techniques exist, how easy it is to memorize and assimilate new information. On my site you can find interesting facts, short articles, links to literature, as well as entertaining videos.
 
