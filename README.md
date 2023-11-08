@@ -1,5 +1,3 @@
-# Hi, my name is Aishat Safin.
-
 ## This project is a **"How to Learn"** website.
 
 <img src="./images/how_to_study.png" alt="website screenshort"  width="600" height="300" />
